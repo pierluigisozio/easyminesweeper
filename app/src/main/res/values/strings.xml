@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EasyMinesweeper</string>
+
+    <string name="smile">😁</string>
+    <string name="flag">📍</string>
+    <string name="bomb">💣</string>
+    <string name="default_count">000</string>
+</resources>
