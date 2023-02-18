@@ -12,7 +12,7 @@
         android:theme="@style/Theme.EasyMinesweeper"
         tools:targetApi="31">
         <activity
-            android:name=".GameActivity"
+            android:name=".view.GameActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
