@@ -12,14 +12,16 @@
         android:theme="@style/Theme.EasyMinesweeper"
         tools:targetApi="31">
         <activity
-            android:name=".view.GameActivity"
+            android:name=".view.MainMenuActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".view.GameActivity"
+            android:parentActivityName=".view.MainMenuActivity" />
     </application>
 
 </manifest>

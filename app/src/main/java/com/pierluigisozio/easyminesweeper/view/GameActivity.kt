@@ -1,7 +1,6 @@
 package com.pierluigisozio.easyminesweeper.view
 
-import android.annotation.SuppressLint
-import android.content.IntentSender.OnFinished
+
 import android.graphics.drawable.GradientDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
